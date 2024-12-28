@@ -9,7 +9,7 @@
 
 L'interface utilisateur est conçue pour être intuitive, facilitant la navigation entre les différentes sections de l'application, notamment les quiz, la galerie d'images, les projets open source, et les articles de blog.
 
-![Interface d'Accueil](images/home.png)
+![Interface d'Accueil](images/home1.png)
 
 ---
 
