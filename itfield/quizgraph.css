@@ -1,0 +1,110 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;700&display=swap');
+
+body {
+  font-family: 'Poppins', sans-serif;
+  background:rgb(173, 162, 162);
+  display: flex;
+  justify-content: center;
+  background-image:  url("itfield/graph2.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center ;
+  background-position-y: 0.2px;
+  background-position-x: 0.2px;
+}
+
+.container {
+  width: 450px;
+  padding: 20px;
+  margin-top: 80px;
+  background-color: whitesmoke;
+  border-radius: 20px;
+  margin-bottom: 10px;
+
+}
+
+.quiz {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  border-radius: 20px;
+}
+
+h1 {
+  text-align: center;
+  font-size: 25px;
+  font-family:Georgia, 'Times New Roman', Times, serif;
+  color:rgb(0, 0, 0);
+  margin: 30px;
+  text-shadow: 2px 2px 4px rgba(0,0,0,0.5), 0px 0px 10px rgba(255,255,255,0.5);
+  animation: title-animation 3s infinite;
+  
+}
+@keyframes title-animation {
+    0% {
+        text-shadow: 2px 2px 4px rgba(0,0,0,0.5), 0px 0px 10px rgba(255,255,255,0.5);
+    }
+    50% {
+        text-shadow: 4px 4px 8px rgba(0,0,0,0.5), 0px 0px 20px rgba(255,255,255,0.5);
+    }
+    100% {
+        text-shadow: 2px 2px 4px rgba(0,0,0,0.5), 0px 0px 10px rgba(255,255,255,0.5);
+    }
+}
+/*...................*/
+
+
+
+
+
+
+
+
+.question {
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.options {
+  margin-bottom: 20px;
+}
+
+.option {
+  display: block;
+  margin-bottom: 10px;
+}
+
+.button {
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: #428bca;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+  font-size: 16px;
+  border-radius: 4px;
+  transition: background-color 0.3s;
+  margin-right: 10px;
+}
+
+
+
+.button:hover {
+  background-color: #093d6b;
+}
+
+.result {
+  text-align: center;
+  margin-top: 20px;
+  font-weight: bold;
+ 
+}
+
+.hide{
+  display: none;
+}
+
+
+
+
